@@ -1,0 +1,173 @@
+:root {
+	font-size: 0.625em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	margin: auto;
+	max-width: 60rem;
+	color: #19665b;
+	background: rgb(206, 210, 227);
+	background: radial-gradient(
+		circle,
+		rgba(206, 210, 227, 1) 30%,
+		rgba(226, 229, 244, 1) 64%,
+		rgba(218, 217, 231, 1) 83%,
+		rgba(196, 195, 224, 1) 100%
+	);
+}
+
+header {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+div {
+	height: 2rem;
+	width: 2rem;
+}
+
+/* some utility classes */
+.t-ucase {
+	text-transform: uppercase;
+}
+
+.t-big {
+	font-size: 1.5em;
+}
+
+.t-wide {
+	letter-spacing: 1.5rem;
+}
+
+.t-close {
+	letter-spacing: 1rem;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.score-display {
+	font-size: 5rem;
+	color: rgb(235, 226, 215);
+}
+
+.game-area {
+	display: flex;
+	justify-content: center;
+}
+
+.game {
+	height: 0;
+	width: 300px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 20rem;
+	height: 40rem;
+}
+
+.previous-shape {
+	width: 10rem;
+	padding-left: 2rem;
+	margin-top: -5rem;
+}
+
+.previous-grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 8rem;
+	height: 8rem;
+}
+
+.block {
+	background-image: url(../images/blue_block.png);
+}
+
+.block2 {
+	background-image: url(../images/purple_block.png);
+}
+
+.block3 {
+	background-image: url(../images/green_block.png);
+}
+
+.block4 {
+	background-image: url(../images/navy_block.png);
+}
+
+.block5 {
+	background-image: url(../images/pink_block.png);
+}
+
+.end {
+	background-color: #d8edea;
+}
+
+.button {
+	position: relative;
+	width: 22rem;
+	height: 2.2rem;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+
+	font-size: 10px;
+	display: block;
+	margin: 20px;
+	padding: 15px 15px 25px 15px;
+	background: #d25068;
+	border: none;
+	width: 12rem;
+	border-radius: 10px;
+}
+
+.button:active {
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
+		0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+	top: 5px;
+}
+
+.button:hover {
+	background: #f66c7b;
+	background-image: linear-gradient(top, #d25068, #f66c7b);
+}
+
+.end {
+	background-image: url(/Users/limit/development/Tetris/images/blue_block.png);
+}
+
+.display {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin-top: 1rem;
+	width: 17.5rem;
+	height: 25rem;
+	background: #796f6f;
+
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+	color: #f7f5f2;
+}
+
+.score,
+.lines-display {
+	padding-top: 1rem;
+	font-size: 1.2rem;
+}
