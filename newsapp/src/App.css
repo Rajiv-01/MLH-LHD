@@ -1,0 +1,10 @@
+.navbar,
+.prev-next {
+  background-color: #1dd880;
+}
+.container {
+  margin: auto;
+}
+.spinner {
+  margin-top: 7.5rem;
+}
